@@ -1,0 +1,17 @@
+{
+  "name": "deal-crm-card",
+  "source": "src",
+  "build": "npm run build",
+  "extensions": {
+    "crm:card": {
+      "quote-card": {
+        "targets": ["QUOTE"],
+        "title": "Qualified Deals",
+        "fetch": {
+          "url": "https://your-backend-url/api/quote-card",
+          "method": "POST"
+        }
+      }
+    }
+  }
+}
